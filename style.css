@@ -1,0 +1,574 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-image: url(image/bg-header.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  padding: 10px;
+  /* border-bottom: 1px solid black; */
+  /* background-color: rgba(255, 255, 255, 0.5); */
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 95px;
+}
+
+.dropdown {
+  display: none;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 55px;
+}
+
+span {
+  color: red;
+}
+
+.link ul {
+  display: flex;
+}
+
+.link ul li {
+  padding: 0 15px;
+  list-style-type: none;
+}
+
+.link ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  z-index: 9999;
+}
+
+.link ul li a:hover {
+  color: red;
+}
+.kiri {
+  line-height: 30px;
+  flex-basis: 40%;
+  padding-left: 40px;
+  z-index: 9999;
+}
+
+h2 {
+  font-size: 50px;
+  color: red;
+  line-height: 50px;
+  text-shadow: 2px 2px 4px #000000;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #cd1818;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover {
+  background-color: black;
+  scale: 105%;
+}
+
+button a {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: white;
+}
+
+.kanan {
+  padding-right: 30px;
+  margin-bottom: 10px;
+  /* border: 1px solid rgb(0, 106, 255); */
+}
+.kanan img {
+  width: 650px;
+  /* border: 1px solid red; */
+}
+
+.container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 3%, rgba(255, 255, 255, 0) 25%);
+  /* border: 1px solid aqua; */
+}
+
+section h2 {
+  padding-top: 10px;
+  margin-top: 30px;
+  color: black;
+  font-size: 30px;
+  width: 250px;
+  margin: auto;
+  font-weight: 500;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.isi {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.italic {
+  font-style: italic;
+  color: #000000;
+}
+
+.isi img {
+  width: 400px;
+}
+
+/*  */
+
+.gallery h2 {
+  text-align: center;
+  color: #000000;
+  text-shadow: none;
+}
+
+.isi_gallery {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.isi_gallery img {
+  width: 500px;
+  padding: 0 5px;
+}
+
+.tombol_link {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.tombol_link h4 {
+  text-align: center;
+}
+
+.tombol3 {
+  display: flex;
+  justify-content: center;
+}
+
+.tentang {
+  padding: 25px;
+}
+
+.kami {
+  text-shadow: none;
+  font-weight: bolder;
+  padding-top: 50px;
+}
+
+.jadwal {
+  text-align: center;
+}
+
+.logo78 {
+  margin-bottom: 20px;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+
+.jadwal h2 {
+  color: black;
+  text-shadow: none;
+}
+
+.konten {
+  display: block;
+  /* border: 1px solid aqua; */
+  margin-bottom: 50px;
+}
+
+.kategori {
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: #cd1818;
+  color: white;
+}
+.kategori-d {
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: #116d6e;
+  color: white;
+}
+
+.baris1,
+.baris2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.card,
+.card2 {
+  margin-top: 20px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.top {
+  display: block;
+  color: black;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+.date,
+.time,
+.place,
+.date2 {
+  display: flex;
+}
+
+.date {
+  background-color: #cd1818;
+  color: white;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-items: center;
+  justify-content: center;
+}
+.date2 {
+  background-color: #116d6e;
+  color: white;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+  margin-top: 5px;
+}
+i {
+  margin-left: 5px;
+  display: none;
+}
+.top h3,
+h4,
+h5 {
+  margin-left: 5px;
+}
+
+.place {
+  align-items: center;
+}
+
+.place h6 {
+  margin-left: 5px;
+}
+.bottom ul {
+  margin-left: 25px;
+}
+
+.bottom2 {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.nobar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.card3 {
+  width: 500px;
+  justify-content: center;
+  /* border: 1px solid black; */
+  padding-bottom: 20px;
+}
+
+.card3 img {
+  width: 80%;
+}
+
+.card3 > h3 {
+  margin-bottom: 10px;
+}
+
+.kanan3 {
+  width: 250px;
+  margin: auto;
+  padding: 2px;
+  border-bottom: 1px solid silver;
+  align-items: center;
+}
+
+.n1,
+.n2,
+.n3 {
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  margin-left: 5px;
+}
+
+.nobar2 {
+  display: flex;
+  justify-content: center;
+}
+
+.nobar2 h3 {
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #cd1818;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.footer h4 {
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.footer h3 {
+  text-align: center;
+  padding: 10px 0;
+}
+.wa {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.wa h4 {
+  margin-top: 0;
+}
+
+.isif {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.isif img {
+  width: 150px;
+}
+
+.fkiri h4 {
+  text-align: center;
+}
+
+.fkanan {
+  display: block;
+}
+/* HP */
+@media screen and (max-width: 480px) {
+  .container::after {
+    display: none;
+  }
+
+  .nav {
+    margin-right: 5px;
+  }
+
+  .dropbtn {
+    background-color: #cd1818;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cd1818a8;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+    align-items: center;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f159;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #cd1818;
+  }
+
+  .logo a {
+    margin-left: 1px;
+    font-size: 25px;
+  }
+  .link {
+    display: none;
+  }
+
+  .head {
+    display: block;
+    padding-left: 0px;
+    justify-content: left;
+  }
+
+  .kiri {
+    padding-left: 10px;
+  }
+
+  .kanan {
+    padding-left: 10px;
+  }
+
+  .kanan img {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  section {
+    padding-top: 10px;
+  }
+
+  section h2 {
+    text-align: center;
+  }
+  .tentang {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .gallery {
+    margin-top: 30px;
+  }
+
+  .isi_gallery {
+    display: block;
+  }
+
+  .isi_gallery img {
+    padding: 0;
+    width: 100%;
+  }
+
+  .gambar2 {
+    margin-top: 0;
+  }
+
+  .tombol_link {
+    margin-bottom: 60px;
+  }
+
+  .tombol_link h4 {
+    font-size: 20px;
+  }
+
+  .isi {
+    display: block;
+    align-items: center;
+    padding: 1px;
+  }
+
+  .isi img {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .baris1,
+  .baris2 {
+    display: block;
+    padding: 20px;
+  }
+
+  .card,
+  .card2 {
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .nobar2 {
+    display: block;
+  }
+
+  /* .isif {
+    display: block;
+  } */
+
+  .isif img {
+    width: 80px;
+  }
+}
